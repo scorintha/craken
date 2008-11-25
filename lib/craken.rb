@@ -1,4 +1,7 @@
 require 'socket'
+# TODO: Figure out better way to add in the load_path
+require "#{RAILS_ROOT}/vendor/plugins/craken/lib"
+# END
 require "#{File.dirname(__FILE__)}/raketab"
 
 module Craken
